@@ -6,7 +6,7 @@ class MainClass {
   public static void Main (string[] args) 
   {
 
-    Author a1 = new Author("J.K.", "Rowling");
+    /*Author a1 = new Author("J.K.", "Rowling");
     a1.DisplayInfo();
     //Console.WriteLine(a1);
 
@@ -41,7 +41,20 @@ class MainClass {
     a2.AddBook(b6);
     a2.DisplayBooks();
     a1.RemoveBook("489325934");
-    a1.DisplayBooks();
+    a1.DisplayBooks();*/
+
+    Patron p1 = new Patron("Katie", "Smith", "40198515");
+    p1.Display();
+    Patron p2 = new Patron("John", "Jones", "24892384");
+    p2.Display();
+    Patron p3 = new Patron("Betty", "Smith", "09885682");
+    p3.Display();
+    Patron p4 = new Patron("Bob", "Wilson", "05039264");
+    p4.Display();
+    Patron p5 = new Patron("Will", "Smith", "09846326");
+    p5.Display();
+
+    
     
     
   }
